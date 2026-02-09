@@ -1,0 +1,266 @@
+.dashboard-view {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.view-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.view-header p {
+    color: var(--text-muted);
+}
+
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    gap: 2.5rem;
+}
+
+.main-col {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.highlights-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.h-card {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.h-val {
+    display: block;
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+}
+
+.h-lab {
+    font-size: 0.875rem;
+    color: var(--text-muted);
+    font-weight: 600;
+}
+
+.courses-section,
+.activity-section {
+    padding: 2rem;
+}
+
+.section-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.text-btn {
+    background: none;
+    border: none;
+    color: var(--primary);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.course-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.premium-course-card {
+    display: flex;
+    gap: 1.5rem;
+    padding: 1rem;
+    border-radius: 12px;
+    transition: background 0.2s;
+}
+
+.premium-course-card:hover {
+    background: rgba(0, 0, 0, 0.02);
+}
+
+.c-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.c-details {
+    flex: 1;
+}
+
+.c-details h4 {
+    margin-bottom: 0.25rem;
+}
+
+.c-details p {
+    font-size: 0.875rem;
+    color: var(--text-muted);
+    margin-bottom: 1rem;
+}
+
+.p-bar-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.p-bar {
+    flex: 1;
+    height: 6px;
+    background: var(--border);
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.p-fill {
+    height: 100%;
+    border-radius: 3px;
+}
+
+.p-percent {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--text-muted);
+}
+
+.side-col {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.upcoming-tasks,
+.learning-tip,
+.quick-stats {
+    padding: 2.5rem 1.5rem;
+}
+
+.task-item {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.t-date {
+    font-size: 0.75rem;
+    font-weight: 800;
+    color: var(--primary);
+    text-transform: uppercase;
+}
+
+.t-name {
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+
+.t-course {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+
+.analytics-banner {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, #6366f1, #0ea5e9);
+    color: white;
+}
+
+.analytics-banner h3 {
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.analytics-banner p {
+    opacity: 0.9;
+    font-size: 0.95rem;
+}
+
+.activity-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.activity-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.u-avatar {
+    width: 40px;
+    height: 40px;
+    background: var(--border);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.u-name {
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.u-time {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+
+.act-user {
+    display: flex;
+    gap: 1rem;
+}
+
+.status-pill {
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.status-pill.pending {
+    background: #fffbeb;
+    color: #b45309;
+}
+
+.status-pill.completed {
+    background: #ecfdf5;
+    color: #047857;
+}
+
+.q-stat {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+.q-label {
+    font-size: 0.875rem;
+    color: var(--text-muted);
+}
+
+.q-val {
+    font-weight: 700;
+    color: var(--primary);
+}
